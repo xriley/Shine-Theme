@@ -1,0 +1,88 @@
+/* ============= Light More  ============= */
+
+.light-mode {
+	background: $theme-lightmode-bg;
+	color: $theme-lightmode-text-color-secondary;
+	
+	h1, h2, h3, h4, h5, h6 {
+	    color: $theme-lightmode-text-color-primary;
+	}
+	
+	.footer .copyright a {
+		color: $theme-lightmode-text-color-secondary;
+	}
+
+	.social-list a {
+		background: white;
+		color: $theme-bg-light;
+		box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+		&:hover {
+			color: $theme-color-secondary;
+		}
+		
+	}
+	
+	
+	.resume-wrapper {
+		background: white;
+		box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+    }
+    .resume-profile-pic {
+	    border-color: white;
+    }
+    .resume-contact {
+	    border-color: darken($theme-lightmode-bg, 15%);
+    }
+    .resume-role-title {
+	    color: $theme-lightmode-text-color-secondary;
+    }
+    .resume-company-name {
+	    background: darken($theme-lightmode-bg, 5%);
+    }
+    .resume-section-heading-icon {
+	    background: darken($theme-text-color-secondary, 10%);
+	    color: white;
+	    font-weight: bold;
+    }
+    .resume-progress {
+	    background: darken($theme-lightmode-bg, 5%);
+    }
+    .resume-skill-name {
+	    color: $theme-lightmode-text-color-primary;
+    }
+    .resume-skill-badge {
+	    background: $theme-bg-light;
+	    color: white;
+    }
+    
+    .resume-level-indicator .item {
+	    background: darken($theme-lightmode-bg, 5%);
+	    &.item-full {
+		    background: darken($theme-text-color-secondary, 10%);
+	    }
+    }
+    
+    .resume-projects-section .item-heading a {
+	    color: $theme-lightmode-text-color-secondary; 
+    }
+    
+    .resume-degree {
+	    color: $theme-lightmode-text-color-primary;
+    }
+    
+    .resume-lang-name {
+	    color: $theme-lightmode-text-color-primary;
+    }
+    
+    .resume-timeline-item:before {
+	    border-color:  darken($theme-lightmode-bg, 20%);
+	    background-color: darken($theme-lightmode-bg, 5%);
+    }
+    .resume-timeline:before {
+	    background: darken($theme-lightmode-bg, 20%);
+	    top: 12px;
+    }
+
+}
+
+
